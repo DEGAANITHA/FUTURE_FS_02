@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Lead Management System (CRM)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Client Lead Management</h1>
+
+<form id="leadForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <select id="status">
+        <option>New</option>
+        <option>Contacted</option>
+        <option>Converted</option>
+    </select>
+    <button type="submit">Add Lead</button>
+</form>
+
+<h2>Leads</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+
+            <th>Email</th>
+            
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="leadTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

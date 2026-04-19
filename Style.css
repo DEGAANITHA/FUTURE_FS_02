@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+header {
+    background: #679bcf;
+    color: rgb(240, 116, 186);
+    text-align: center;
+    padding: 20px;
+}
+form input, select, button {
+    margin: 5px;
+    padding: 8px;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
